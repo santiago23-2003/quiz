@@ -1,0 +1,159 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-size: 1rem;
+	line-height: 1.5;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	font-family: "Piedra", "cursive";
+}
+
+.header {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+
+.header-content {
+	max-width: 40rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin: auto;
+	text-align: center;
+}
+
+.header-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.header-video video {
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.header-overlay {
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #303952;
+	z-index: 2;
+	opacity: 0.85;
+}
+
+.header-content {
+	z-index: 2;
+}
+.Respuesta-Contenedor {
+	display: flex;
+	margin-bottom: 0.5rem;
+	width: 1200px;
+	height: 90px;
+	font-size: 1.5rem;
+	border: 0.1rem solid rgba(199, 94, 9, 0.25);
+	background-color: white;
+	position: relative;
+	right: 300px;
+	top: -60px;
+}
+
+.Respuesta-Contenedor:hover {
+	cursor: pointer;
+	box-shadow: 0 0.4rem 1.4rem 0 rgba(199, 94, 9, 0.25);
+	transform: translateY(-0.1rem);
+	transition: transform 150ms;
+}
+h1 {
+	position: relative;
+	right: 250px;
+	top: 15px;
+}
+h2 {
+	position: relative;
+	right: 20px;
+	top: -180px;
+}
+p {
+	position: relative;
+	top: -10px;
+}
+
+.EleccionPrefijo {
+	position: relative;
+	right: 2px;
+	top: -42px;
+	font-size: 40px;
+	line-height: 2rem;
+	padding: 2.82rem 3rem;
+	background-color: #266ff7ea;
+	color: white;
+}
+
+.EleccionTexto {
+	padding: 1.2rem 1.7rem;
+	color: black;
+}
+
+.correct {
+	background-color: #28a745;
+}
+
+.incorrect {
+	background-color: #dc3545;
+}
+
+/* HUD */
+
+#hud {
+	display: flex;
+	justify-content: space-between;
+}
+
+.pregunta {
+	text-align: center;
+	font-size: 2rem;
+	position: relative;
+	right: 350px;
+	top: 95px;
+}
+
+.puntaje {
+	font-size: 2rem;
+	position: relative;
+	right: -140px;
+	top: 90px;
+}
+
+.puntaje-numeros {
+	font-size: 2rem;
+	position: relative;
+	right: -150px;
+	top: 60px;
+}
+
+#progresoBarra {
+	width: 20rem;
+	height: 2rem;
+	border: 0.3rem solid #266ff7ea;
+	margin-top: 1.5rem;
+	position: relative;
+	right: 300px;
+	top: 10px;
+}
+
+#progresoBarraL {
+	height: 1.4rem;
+	background-color: #65b1f3;
+	width: 100%;
+}

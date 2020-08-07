@@ -1,0 +1,234 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-size: 1rem;
+	line-height: 1.5;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.header {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	color: #fff;
+	
+}
+
+.content {
+	max-width: 40rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin: auto;
+	text-align: center;
+}
+
+.header-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.header-video video {
+	min-width: 100%;
+	min-height: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.header-overlay {
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #303952;
+	z-index: 1;
+	opacity: 0.85;
+}
+
+.header-content {
+	z-index: 2;
+}
+
+h1 {
+	font-size: 40px;
+	position: relative;
+	top: -250px;
+	font-family: "piedra", "cursive";
+	color: white;
+	text-align: center;
+	right: -100px;
+	display: block;
+	line-height: 2;
+	z-index: 2;
+}
+
+*.header-content {
+	position: relative;
+	top: 200px;
+	right: 200px;
+}
+
+.btn {
+	width: 250px;
+	height: 60px;
+	display: block;
+	background: linear-gradient(50deg, rgb(0, 132, 255), rgb(0, 255, 13));
+	padding: 4px 6px;
+	margin: auto;
+	margin-top: 400px;
+	font-size: 30px;
+	font-family: "piedra", "cursive";
+	color: black;
+	text-decoration: none;
+	position: relative;
+	text-transform: uppercase;
+	top: 650px;
+	letter-spacing: 3px;
+	border-radius: 5px;
+	transition: all 300ms;
+	right: 400px;
+}
+
+.btn:hover {
+	transform: translateY(10px);
+	box-shadow: 0px 30px 5px -15px rgba(37, 36, 36, 0.3);
+}
+
+.btn2 {
+	width: 250px;
+	height: 60px;
+	display: block;
+	background: linear-gradient(50deg, rgb(0, 132, 255), rgb(0, 255, 13));
+	padding: 4px 6px;
+	margin: auto;
+	margin-top: 400px;
+	font-size: 30px;
+	font-family: "piedra", "cursive";
+	color: black;
+	text-decoration: none;
+	position: relative;
+	text-transform: uppercase;
+	top: 190px;
+	letter-spacing: 3px;
+	border-radius: 5px;
+	transition: all 300ms;
+	right: 1px;
+}
+
+.btn2:hover {
+	transform: translateY(10px);
+	box-shadow: 0px 30px 5px -15px rgba(37, 36, 36, 0.3);
+}
+
+.btn3 {
+	width: 250px;
+	height: 60px;
+	display: block;
+	background: linear-gradient(50deg, rgb(0, 132, 255), rgb(0, 255, 13));
+	padding: 4px 6px;
+	margin: auto;
+	margin-top: 400px;
+	font-size: 30px;
+	font-family: "piedra", "cursive";
+	color: black;
+	text-decoration: none;
+	position: relative;
+	text-transform: uppercase;
+	top: -270px;
+	letter-spacing: 3px;
+	border-radius: 5px;
+	transition: all 300ms;
+	right: -400px;
+}
+
+.btn3:hover {
+	transform: translateY(10px);
+	box-shadow: 0px 30px 5px -15px rgba(37, 36, 36, 0.3);
+}
+
+.btn4 {
+	width: 250px;
+	height: 60px;
+	display: block;
+	background: linear-gradient(50deg, rgb(0, 132, 255), rgb(0, 255, 13));
+	padding: 4px 6px;
+	margin: auto;
+	margin-top: 400px;
+	font-size: 30px;
+	font-family: "piedra", "cursive";
+	color: black;
+	text-decoration: none;
+	position: relative;
+	text-transform: uppercase;
+	top: -500px;
+	letter-spacing: 3px;
+	border-radius: 5px;
+	transition: all 300ms;
+	right: 400px;
+}
+
+.btn4:hover {
+	transform: translateY(10px);
+	box-shadow: 0px 30px 5px -15px rgba(37, 36, 36, 0.3);
+}
+
+.btn5 {
+	width: 250px;
+	height: 60px;
+	display: block;
+	background: linear-gradient(50deg, rgb(0, 132, 255), rgb(0, 255, 13));
+	padding: 4px 6px;
+	margin: auto;
+	margin-top: 400px;
+	font-size: 30px;
+	font-family: "piedra", "cursive";
+	color: black;
+	text-decoration: none;
+	position: relative;
+	text-transform: uppercase;
+	top: -960px;
+	letter-spacing: 3px;
+	border-radius: 5px;
+	transition: all 300ms;
+	right: 1px;
+}
+
+.btn5:hover {
+	transform: translateY(10px);
+	box-shadow: 0px 30px 5px -15px rgba(37, 36, 36, 0.3);
+}
+
+.btn6 {
+	width: 250px;
+	height: 60px;
+	display: block;
+	background: linear-gradient(50deg, rgb(0, 132, 255), rgb(0, 255, 13));
+	padding: 4px 6px;
+	margin: auto;
+	margin-top: 400px;
+	font-size: 30px;
+	font-family: "piedra", "cursive";
+	color: black;
+	text-decoration: none;
+	position: relative;
+	text-transform: uppercase;
+	top: -1420px;
+	letter-spacing: 3px;
+	border-radius: 5px;
+	transition: all 300ms;
+	right: -400px;
+}
+
+.btn6:hover {
+	transform: translateY(10px);
+	box-shadow: 0px 30px 5px -15px rgba(37, 36, 36, 0.3);
+}

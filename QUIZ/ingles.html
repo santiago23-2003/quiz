@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>MATEMATICAS</title>
+
+		<!--LINK DEL CSS (matematicas.css)-->
+		<link rel="stylesheet" href="css/matematicas.css" />
+
+		<!--TIPO DE LETRA -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Piedra&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header class="header content">
+			<div class="header-video">
+				<video src="VIDEO/VID3.mp4" autoplay loop muted />
+			</div>
+
+			<div class="header-overlay"></div>
+			<div class="header-content">
+				<div class="contenedor">
+					<div id="loader"></div>
+					<div id="game" class="justify-center flex-column hidden">
+						<div id="hud">
+							<div id="hud-item">
+								<p id="progressText" class="pregunta">
+									Pregunta
+								</p>
+								<div id="progressBar">
+									<div id="progressBarFull"></div>
+								</div>
+							</div>
+							<div id="hud-item">
+								<p class="puntaje">
+									Puntaje
+								</p>
+								<h1 class="puntaje-numeros" id="score">
+									0
+								</h1>
+							</div>
+						</div>
+
+						<h2 id="question">¡PREGUNTA!</h2>
+						<div class="respuesta-contenedor">
+							<p class="eleccion">A</p>
+							<p class="respuesta">respuesta 1</p>
+						</div>
+						<div class="respuesta-contenedor">
+							<p class="eleccion">B</p>
+							<p class="respuesta">respuesta 2</p>
+						</div>
+						<div class="respuesta-contenedor">
+							<p class="eleccion">C</p>
+							<p class="respuesta">respuesta 3</p>
+						</div>
+						<div class="respuesta-contenedor">
+							<p class="eleccion">D</p>
+							<p class="respuesta">respuesta 4</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<script src="JavaScript/matematicas.js"></script>
+	</body>
+</html>
